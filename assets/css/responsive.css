@@ -1,0 +1,667 @@
+/* XL Device :1200px. */
+@media screen and (max-width: 1449px) {
+
+    h1 {
+        font-size: 105px;
+    }
+
+    .services-image {
+        height: 600px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .call-btn {
+        display: none;
+    }
+
+    .video-area p {
+        font-size: 18px;
+    }
+
+    .hero-info_counter h2 {
+        font-size: 100px;
+    }
+
+    .services-card__image {
+        height: 480px;
+    }
+
+    .glass-card h2 {
+        font-size: 90px;
+    }
+
+    .introduction-area h2 {
+        font-size: 108px;
+    }
+
+    .property-feature {
+        font-size: 34px;
+    }
+
+    .client-reviews__box p {
+        font-size: 37px;
+    }
+
+    
+
+}
+
+
+
+/* LG Device :992px. */
+@media screen and (max-width: 1199px) {
+
+    h1 {
+        font-size: 87px;
+    }
+
+    h2 {
+        font-size: 53px;
+    }
+
+    .hero-area {
+        padding: 255px 15px 110px;
+    }
+
+    .video-inner {
+        max-width: 278px;
+    }
+    
+    .services-card__wraper {
+        margin-top: 130px;
+        gap: 30px;
+    }
+
+    .services-card__image {
+        height: 400px;
+    }
+
+    .services-card:nth-child(2) .services-card__image{
+        height: 450px;
+    }
+
+    .services-card:nth-child(3) .services-card__image{
+        height: 380px;
+    }
+
+    .services-card__content p {
+        padding-right: 0;
+    }
+
+    .project-area {
+        padding: 125px 15px 118px;
+    }
+
+    .recent-project {
+        margin-top: 150px;
+    }
+
+    .project-list .accordion-button h2 {
+        font-size: 43px;
+    }
+
+    .project-demo__area {
+        grid-template-columns: 49% 49%;
+    }
+
+    .project-demo__datils {
+        gap: 50px;
+    }
+
+    .introduction-area {
+        padding: 130px 0 60px;
+    }
+
+    .introduction-area h2 {
+        font-size: 100px;
+    }
+
+    .property-features__wraper {
+        margin-top: 200px;
+    }
+
+    .value-demo {
+        height: 500px;
+    }
+
+    .value-demo h3 {
+        font-size: 27px;
+    }
+    
+    .client-reviews-side {
+        padding: 80px 0;
+    }
+
+    .client-reviews__box p {
+        font-size: 34px;
+    }
+
+    .team-card {
+        height: 400px;
+    }
+
+    .services-wraper .services-card__details h3 {
+        font-size: 24px;
+    }
+
+    .property-feature {
+        font-size: 27px;
+    }
+
+    .client-reviews__wraper {
+        padding-left: 50px;
+    }
+
+    .faq-area {
+        padding: 120px 15px 120px;
+    }
+
+    .faq-wraper .accordion .accordion-item {
+        padding: 10px 0;
+    }
+
+    .blog-image {
+        height: 250px;
+    }
+
+    .blog-content h3 a {
+        font-size: 20px;
+    }
+
+    .contact-area {
+        padding: 90px 15px;
+    }
+
+    .contact-content h2 {
+        font-size: 50px;
+    }
+
+    .contact-services li p {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        padding: 36px;
+    }
+
+    .footer-area {
+        padding: 100px 15px 50px;
+    }
+
+    .footer-wraper {
+        margin-top: 86px;
+    }
+
+    .footer-wraper {
+        padding: 40px;
+    }
+
+}
+ 
+
+
+
+/* LG Device :992px. */
+@media screen and (max-width: 991px) {
+
+    h1 {
+        font-size: 66px;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .header-right {
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .call-btn {
+        display: inline-flex;
+        border-radius: 10px;
+    }
+
+    .call-icon {
+        border-radius: 5px;
+    }
+
+    .primary-btn {
+        border-radius: 10px;
+    }
+    
+    .trigger-btn{
+        display: inline-flex;
+    }
+
+    .moving-button {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 27%;
+    }
+
+    .hero-area {
+        padding: 210px 15px 110px;
+    }
+
+    .video-area p {
+        font-size: 15px;
+    }
+
+    .services-card__details {
+        flex-direction: column;
+    }
+
+    .services-card__image {
+        height: 300px;
+    }
+
+    .services-card:nth-child(2) .services-card__image{
+        height: 350px;
+    }
+
+    .services-card:nth-child(3) .services-card__image{
+        height: 280px;
+    }
+
+    .glass-card h2 {
+        font-size: 68px;
+    }
+
+    .project-area {
+        padding: 100px 15px 80px;
+    }
+
+    .recent-project {
+        margin-top: 100px;
+    }
+
+    .project-demo__datils {
+        gap: 40px;
+    }
+
+    .project-features__list {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .project-price {
+        margin-top: 30px;
+    }
+
+    .project-price p {
+        font-size: 22px;
+    }
+
+    .services-image {
+        height: 400px;
+    }
+
+    .services-wraper .services-card__details-wraper {
+        padding-left: 0;
+    }
+
+    .introduction-area h2 {
+        font-size: 75px;
+    }
+
+    .property-feature {
+        font-size: 20px;
+    }
+
+    .property-features__wraper {
+        margin-top: 100px;
+    }
+
+    .value-card__icon svg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .value-demo h3 {
+        font-size: 25px;
+    }
+
+    .value-card {
+        width: 396px;
+        padding: 27px;
+    }
+
+    .client-reviews__left h2 {
+        font-size: 70px;
+    }
+
+    .client-reviews__box p {
+        font-size: 28px;
+    }
+
+    .client-reviews__box .quote {
+        font-size: 56px;
+    }
+
+    .client-reviews__wraper .owl-nav .owl-prev {
+        right: 17% !important;
+    }
+
+    .brand-logo-area {
+        padding: 50px 15px;
+    }
+
+    .team-area {
+        padding: 100px 15px;
+    }
+
+    .team-card {
+        height: 322px;
+    }
+
+    .faq-wraper .accordion-button {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    .faq-wraper .accordion-body {
+        padding: 20px 0;
+    }
+
+    .faq-area {
+        padding: 100px 15px 100px;
+    }
+
+    .blog-area {
+        padding: 100px 15px;
+    }
+
+    .contact-content h2 {
+        font-size: 44px;
+    }
+
+    .contact-services {
+        gap: 30px;
+        margin-top: 39px;
+    }
+
+    .contact-services li p {
+        font-size: 18px;
+    }
+
+    .call-book {
+        margin-top: 60px;
+    }
+
+    .contact-form h3 {
+        font-size: 30px;
+    }
+
+    .footer-area {
+        padding: 80px 15px 50px;
+    }
+
+    .property-info::after {
+        top: 45%;
+        font-size: 146px;
+    }
+
+    .footer-wraper {
+        margin-top: 64px;
+    }
+
+    .footer-item {
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 33px;
+    }
+
+    .cta-inner {
+        display: none;
+    }
+
+    .hero-info_counter h2 {
+        font-size: 76px;
+    }
+
+    .hero-area {
+        padding: 180px 15px 80px;
+    }
+
+    .video-area {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-info {
+        margin-top: 10px;
+    }
+
+    .hero-info_counter {
+        justify-content: flex-start;
+    }
+
+    .hero-info_counter h2 {
+        font-size: 64px;
+    }
+
+    .hero-info_counter p {
+        font-size: 18px;
+    }
+
+    .moving-button {
+        width: 100px;
+        height: 100px;
+        top: 80%;
+    }
+
+    .about-area {
+        padding: 80px 15px;
+    }
+
+    .services-card__wraper {
+        margin-top: 80px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .services-card {
+        gap: 30px;
+    }
+
+    .services-card__image {
+        height: 260px;
+    }
+
+    .services-card:nth-child(2) .services-card__image{
+        height: 260px;
+    }
+
+    .services-card:nth-child(3) .services-card__image{
+        height: 260px;
+    }
+
+    .project-area .project-area-bg {
+        height: 32%;
+    }
+
+    .glass-card {
+        padding: 20px;
+    }
+
+    .glass-card .caption {
+        font-size: 13px;
+    }
+
+    .glass-card h2 {
+        font-size: 47px;
+        padding-top: 25px;
+    }
+
+    .project-list .accordion-button h2 {
+        font-size: 25px;
+    }
+
+    .project-demo__area {
+        grid-template-columns: 100%;
+        row-gap: 30px;
+    }
+
+    .project-list .accordion-item {
+        padding: 30px 0;
+    }
+
+    .choose-area {
+        padding: 80px 15px;
+    }
+
+    .services-image {
+        height: 300px;
+    }
+
+    .services-wraper .services-card__details {
+        grid-template-columns:1fr;
+    }
+
+    .introduction-area {
+        padding: 80px 0 60px;
+    }
+
+    .introduction-area h2 {
+        font-size: 45px;
+    }
+
+    .property-feature {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+    
+    .property-tab__btns .nav-link {
+        font-size: 15px;
+        padding: 13px 30px;
+    }
+
+    .property-area {
+        padding: 80px 15px;
+    }
+
+    .value-demo {
+        padding: 15px;
+    }
+
+    .value-card p {
+        font-size: 15px;
+    }
+
+    .client-reviews-area {
+        padding-top: 40px;
+    }
+
+    .client-reviews-side {
+        padding: 24px;
+    }
+
+    .client-reviews__wraper {
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .client-reviews__box p {
+        font-size: 20px;
+    }
+
+    .client-avater {
+        width: 60px;
+        height: 60px;
+    }
+
+    .client-reviews__wraper .owl-nav .owl-prev {
+        right: 21% !important;
+    }
+
+    .team-area {
+        padding: 80px 15px;
+    }
+
+    .team-card {
+        height: 440px;
+    }
+
+    .faq-wraper .accordion-button {
+        font-size: 20px;
+    }
+
+    .faq-wraper .accordion-body p {
+        font-size: 14px;
+    }
+
+    .blog-area {
+        padding: 80px 15px;
+    }
+
+    .contact-area {
+        padding: 70px 15px;
+    }
+
+    .contact-content h2 {
+        font-size: 36px;
+    }
+
+    .contact-services {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .contact-form {
+        padding: 40px 15px;
+    }
+
+}
+
+
+/* SM Small Device :320px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .video-area {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .moving-button {
+        top: 30%;
+    }
+    
+    
+}
