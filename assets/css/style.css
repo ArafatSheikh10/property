@@ -598,6 +598,7 @@ p {
 }
 
 .header-sidebar .nav-menu li .dropdown-content {
+    width: 200px;
     top: 10px;
     transition: none;
     display: none;
