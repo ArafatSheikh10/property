@@ -21,6 +21,76 @@ jQuery(document).ready(function() {
 
 
 
+
+
+    /* ============
+    Sidebar Menu Dropdown
+     ==============*/
+
+    $(".header-sidebar .nav-menu > li > a").click(function(e){
+        e.preventDefault();
+
+        const $dropdown = $(this).next(".dropdown-content");
+        if (!$dropdown.length) return;
+
+        const isActive = $dropdown.hasClass('active');
+
+        // Close all other dropdowns in the sidebar.
+        $dropdown
+            .closest(".nav-menu")
+            .find(".dropdown-content")
+            .not($dropdown)
+            .removeClass('active')
+            .slideUp(200);
+
+        // Toggle the clicked dropdown.
+        if (isActive) {
+            $dropdown.removeClass('active').slideUp(500);
+        } else {
+            $dropdown.addClass('active').slideDown(500);
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* ============
+     Sidebar Menu Trigger
+     ==============*/
+
+    $('.trigger-btn').click(function(){
+        $('.header-sidebar, .overlay').addClass('slide-menu');
+    })
+
+    $('.dismess-btn, .overlay').click(function(){
+        $('.header-sidebar, .overlay').removeClass('slide-menu');
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     /* ============
     Moving Button
      ==============*/

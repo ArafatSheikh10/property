@@ -304,7 +304,7 @@ p {
     top: 0;
     width: 100%;
     height: auto;
-    z-index: 99;
+    z-index: 9;
     padding: 40px 15px;
 }
 
@@ -413,7 +413,7 @@ p {
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: var(--border-color);
+    background-color: #DDDDDD;
 }
 
 .dropdown-content li::after{
@@ -525,6 +525,103 @@ p {
 }
 
 /*--------------------- Header Area End------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------- Header Sidebar Start------------------ */
+
+.overlay{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .8;
+    z-index: 80;
+    transition: .5s;
+}
+
+.overlay.slide-menu{
+    left: 0;
+}
+
+.header-sidebar{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: var(--white);
+    padding: 20px;
+    z-index: 99;
+    transition: var(--transition);
+}
+
+.header-sidebar.slide-menu{
+    left: 0;
+}
+
+.header-sidebar .site-logo{
+    padding: 10px;
+    background-color: var(--accent-color);
+    border-radius: 50px;
+}
+
+.dismess-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-sidebar .nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.header-sidebar .nav-menu li .dropdown-content {
+    top: 10px;
+    transition: none;
+    display: none;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: visible; 
+}
+
+.header-sidebar .nav-menu li:hover .dropdown-content {
+    transform: translateY(0);
+}
+
+.header-sidebar .nav-menu li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.header-sidebar .nav-menu li a{
+    color: var(--secondary-color);
+}
+
+/*--------------------- Header Sidebar End------------------ */
 
 
 
