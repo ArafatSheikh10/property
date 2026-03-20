@@ -101,7 +101,7 @@ jQuery(document).ready(function() {
         slideTransition: 'linear',
         responsive:{
             0:{
-                items:2
+                items:3
             },
             575:{
                 items:4
